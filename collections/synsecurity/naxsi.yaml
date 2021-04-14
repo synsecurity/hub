@@ -1,0 +1,14 @@
+parsers:
+#generic post-parsing of http stuff
+  - synsecurity/nginx-logs
+  - synsecurity/naxsi-logs
+scenarios:
+  - synsecurity/naxsi-exploit-vpatch
+description: "naxsi support : parser and vpatch scenario"
+author: synsecurity
+tags:
+  - linux
+  - nginx
+  - naxsi
+  - exploit
+

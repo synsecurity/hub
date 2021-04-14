@@ -1,0 +1,13 @@
+parsers:
+#generic post-parsing of http stuff
+  - synsecurity/apache2-logs
+collections:
+  - synsecurity/base-http-scenarios
+description: "apache2 support : parser and generic http scenarios "
+author: synsecurity
+tags:
+  - linux
+  - apache2
+  - crawl
+  - scan
+

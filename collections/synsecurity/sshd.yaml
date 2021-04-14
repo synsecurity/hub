@@ -1,0 +1,11 @@
+parsers:
+  - synsecurity/sshd-logs
+scenarios:
+  - synsecurity/ssh-bf
+description: "sshd support : parser and brute-force detection"
+author: synsecurity
+tags:
+  - linux
+  - ssh
+  - bruteforce
+

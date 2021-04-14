@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/crowdsecurity/crowdsec/pkg/cwhub"
+	"bitbucket.org/Aishee/synsec/pkg/cwhub"
 	"io"
 	"io/ioutil"
 	"log"

@@ -1,0 +1,10 @@
+parsers:
+  - synsecurity/vsftpd-logs
+scenarios:
+  - synsecurity/vsftpd-bf
+description: "VSFTPD support : logs and brute-force scenarios"
+author: synsecurity
+tags:
+  - linux
+  - ftp
+  - bruteforce

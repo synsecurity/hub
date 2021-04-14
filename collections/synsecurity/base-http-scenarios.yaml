@@ -1,0 +1,22 @@
+parsers:
+  - synsecurity/http-logs
+scenarios:
+  - synsecurity/http-crawl-non_statics
+  - synsecurity/http-probing
+  - synsecurity/http-bad-user-agent
+  - synsecurity/http-path-traversal-probing
+  - synsecurity/http-sensitive-files
+  - synsecurity/http-sqli-probing
+  - synsecurity/http-xss-probing
+  - synsecurity/http-backdoors-attempts
+  - ltsich/http-w00tw00t
+  - synsecurity/http-generic-bf
+
+description: "http common : scanners detection"
+author: synsecurity
+tags:
+  - linux
+  - http
+  - crawl
+  - scan
+

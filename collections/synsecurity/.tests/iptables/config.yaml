@@ -1,0 +1,14 @@
+#configuration
+acquisition_file: acquis.yaml
+parser_results: parser_results.yaml
+bucket_results: bucket_result.yaml             
+postoverflow_input: po_input.yaml
+marshaled_time_year: 2020
+index: "./config/hub/.index.json"
+configurations:      
+  parsers:
+  - synsecurity/iptables-logs
+  - synsecurity/syslog-logs
+  - synsecurity/dateparse-enrich
+  scenarios:
+  - synsecurity/iptables-scan-multi_ports

@@ -1,0 +1,11 @@
+parsers:
+  - synsecurity/iptables-logs
+scenarios:
+  - synsecurity/iptables-scan-multi_ports
+description: "iptables support : logs and port-scans detection scenarios"
+author: synsecurity
+tags:
+  - linux
+  - portscan
+  - iptables
+

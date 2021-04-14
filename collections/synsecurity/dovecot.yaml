@@ -1,0 +1,10 @@
+parsers:
+  - synsecurity/dovecot-logs
+scenarios:
+  - synsecurity/dovecot-spam
+description: "dovecot support : parser and spammer detection"
+author: synsecurity
+tags:
+  - linux
+  - spam
+  - bruteforce

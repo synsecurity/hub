@@ -1,0 +1,13 @@
+parsers:
+#generic post-parsing of http stuff
+  - synsecurity/nginx-logs
+collections:
+  - synsecurity/base-http-scenarios
+description: "nginx support : parser and generic http scenarios"
+author: synsecurity
+tags:
+  - linux
+  - nginx
+  - crawl
+  - scan
+

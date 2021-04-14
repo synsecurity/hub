@@ -1,6 +1,6 @@
 provisionalresults:
 - s00-raw:
-    crowdsecurity/syslog-logs:
+    synsecurity/syslog-logs:
       ExpectMode: 1
       Stage: s01-parse
       Line:
@@ -51,7 +51,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: toto.foo
   s02-enrich:
-    crowdsecurity/dateparse-enrich:
+    synsecurity/dateparse-enrich:
       ExpectMode: 1
       Stage: s02-enrich
       Line:
@@ -83,7 +83,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: toto.foo
 - s00-raw:
-    crowdsecurity/syslog-logs:
+    synsecurity/syslog-logs:
       ExpectMode: 1
       Stage: s01-parse
       Line:
@@ -132,7 +132,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: dani
   s02-enrich:
-    crowdsecurity/dateparse-enrich:
+    synsecurity/dateparse-enrich:
       ExpectMode: 1
       Stage: s02-enrich
       Line:
@@ -163,7 +163,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: dani
 - s00-raw:
-    crowdsecurity/syslog-logs:
+    synsecurity/syslog-logs:
       ExpectMode: 1
       Stage: s01-parse
       Line:
@@ -214,7 +214,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: BadUser
   s02-enrich:
-    crowdsecurity/dateparse-enrich:
+    synsecurity/dateparse-enrich:
       ExpectMode: 1
       Stage: s02-enrich
       Line:
@@ -246,7 +246,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: BadUser
 - s00-raw:
-    crowdsecurity/syslog-logs:
+    synsecurity/syslog-logs:
       ExpectMode: 1
       Stage: s01-parse
       Line:
@@ -297,7 +297,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: admin
   s02-enrich:
-    crowdsecurity/dateparse-enrich:
+    synsecurity/dateparse-enrich:
       ExpectMode: 1
       Stage: s02-enrich
       Line:
@@ -329,7 +329,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: admin
 - s00-raw:
-    crowdsecurity/syslog-logs:
+    synsecurity/syslog-logs:
       ExpectMode: 1
       Stage: s01-parse
       Line:
@@ -380,7 +380,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: BadUser2
   s02-enrich:
-    crowdsecurity/dateparse-enrich:
+    synsecurity/dateparse-enrich:
       ExpectMode: 1
       Stage: s02-enrich
       Line:
@@ -412,7 +412,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: BadUser2
 - s00-raw:
-    crowdsecurity/syslog-logs:
+    synsecurity/syslog-logs:
       ExpectMode: 1
       Stage: s01-parse
       Line:
@@ -463,7 +463,7 @@ provisionalresults:
         source_ip: 1.2.3.4
         user: admin2
   s02-enrich:
-    crowdsecurity/dateparse-enrich:
+    synsecurity/dateparse-enrich:
       ExpectMode: 1
       Stage: s02-enrich
       Line:

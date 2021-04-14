@@ -1,0 +1,11 @@
+parsers:
+  - synsecurity/syslog-logs
+  - synsecurity/geoip-enrich
+  - synsecurity/dateparse-enrich
+collections:
+  - synsecurity/sshd
+description: "core linux support : syslog+geoip+ssh"
+author: synsecurity
+tags:
+  - linux
+

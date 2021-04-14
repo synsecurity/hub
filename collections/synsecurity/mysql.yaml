@@ -1,0 +1,10 @@
+parsers:
+  - synsecurity/mysql-logs
+scenarios:
+  - synsecurity/mysql-bf
+description: "mysql support : logs and brute-force scenarios"
+author: synsecurity
+tags:
+  - linux
+  - mysql
+  - bruteforce

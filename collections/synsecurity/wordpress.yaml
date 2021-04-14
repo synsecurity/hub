@@ -1,0 +1,9 @@
+scenarios:
+  - synsecurity/http-bf-wordpress_bf
+description: "wordpress : bruteforce detection"
+author: synsecurity
+tags:
+  - linux
+  - wordpress
+  - bruteforce
+

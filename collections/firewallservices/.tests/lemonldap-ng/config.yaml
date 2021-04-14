@@ -6,8 +6,8 @@ marshaled_time_year: 2021
 index: "./config/hub/.index.json"
 configurations:      
   parsers:
-  - crowdsecurity/syslog-logs
-  - crowdsecurity/dateparse-enrich
+  - synsecurity/syslog-logs
+  - synsecurity/dateparse-enrich
   - firewallservices/lemonldap-ng
   scenarios:
   - firewallservices/lemonldap-ng-bf

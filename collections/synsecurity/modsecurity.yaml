@@ -1,0 +1,10 @@
+parsers:
+  - synsecurity/modsecurity
+scenarios:
+  - synsecurity/modsecurity
+description: "modsecurity support : modsecurity parser and scenario"
+author: synsecurity
+tags:
+  - linux
+  - web
+  - waf

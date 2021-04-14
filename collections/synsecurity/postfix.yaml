@@ -1,0 +1,11 @@
+parsers:
+  - synsecurity/postfix-logs
+  - synsecurity/postscreen-logs
+scenarios:
+  - synsecurity/postfix-spam
+description: "postfix support : parser and spammer detection"
+author: synsecurity
+tags:
+  - linux
+  - spam
+  - bruteforce

@@ -1,0 +1,10 @@
+postoverflows:
+  - synsecurity/seo-bots-whitelist
+  - synsecurity/cdn-whitelist
+  - synsecurity/rdns
+description: "Good actors whitelists"
+author: synsecurity
+tags:
+  - whitelist
+  - bots
+  - partners

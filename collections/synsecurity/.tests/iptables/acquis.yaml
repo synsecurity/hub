@@ -1,0 +1,5 @@
+mode: cat
+filenames:
+ - ./collections/synsecurity/.tests/iptables/iptables.log
+labels:
+  type: syslog
